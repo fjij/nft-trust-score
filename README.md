@@ -27,27 +27,22 @@ const trustScore = computeTrustScore(BlitmapData, MonarchsData);
 
 ## API
 
-### `getCollectionDataset(collectionAddress: string, log = false)`
+### getCollectionDataset(collectionAddress: string, log = false)
 
-Get the dataset for the collection with the specified contract address. Log
-progress if `log` is `true`.
+- Get the dataset for the collection with the specified contract address. Log
+  progress if `log` is `true`.
 
-### `computeTrustScore(datasetA, datasetB)`
+### computeTrustScore(datasetA, datasetB)
 
-Compute the trust score between two datasets
+- Compute the trust score between two datasets
 
-### `TrustScore`
+## Types
 
-#### `mutualOwnerCount`
+### TrustScore
 
-The number of mutual token owners between two collections.
-
-#### `mutualOriginatorCount`
-
-The number of mutual token originators (account that initiated the mint of a
-token) between two collections.
-
-#### `mutualOwnerOriginatorCount`
-
-The number of mutual accounts that are both owners and originators in both
-collections.
+- **mutualOwnerCount:** The number of mutual token owners between two
+  collections.
+- **mutualOriginatorCount:** The number of mutual token originators (account
+  that initiated the mint of a token) between two collections.
+- **mutualOwnerOriginatorCount:** The number of mutual accounts that are both
+  owners and originators in both collections.
