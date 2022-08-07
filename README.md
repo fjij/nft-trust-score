@@ -1,8 +1,6 @@
 # NFT Trust Score
 
-Find how "connected" two NFT projects are.
-
-Uses the Zora GraphQL API.
+Find out how trustworthy an NFT project is relative to another.
 
 ## Usage
 
