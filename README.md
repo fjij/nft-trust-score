@@ -2,6 +2,10 @@
 
 Find out how trustworthy an NFT project is relative to another.
 
+[Try out the live demo!](https://gateway.pinata.cloud/ipfs/QmVY7NRLwxGhKSHSJnRgSiPqz8B3QEhQEjp7ZorfPWPKd8/)
+
+[View the demo source.](https://github.com/fjij/nft-trust-score-demo)
+
 ## Usage
 
 ```ts
