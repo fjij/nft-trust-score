@@ -1,9 +1,9 @@
 {
   "name": "nft-trust-score",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:fjij/nft-trust-score.git",
+  "repository": "https://github.com/fjij/nft-trust-score",
   "author": "fjij <30779570+fjij@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
